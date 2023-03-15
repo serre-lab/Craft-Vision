@@ -1,0 +1,6599 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="icon" href="../../assets/craft_icon.png">
+      <meta name="generator" content="mkdocs-1.3.1, mkdocs-material-8.4.0">
+    
+    
+      
+        <title>Iron - Craft-Vision</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.69437709.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.cbb835fc.min.css">
+        
+      
+      
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../css/custom.css">
+    
+      <link rel="stylesheet" href="../../css/grid.css">
+    
+      <link rel="stylesheet" href="../../css/dashboard.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="dark" data-md-color-accent="indigo">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#iron-606" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Craft-Vision" class="md-header__button md-logo" aria-label="Craft-Vision" data-md-component="logo">
+      
+  <img src="../../assets/craft_logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Craft-Vision
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Iron
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="dark" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+            </label>
+          
+        
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="" data-md-color-accent=""  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3Z"/></svg>
+            </label>
+          
+        
+      </form>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/serre-lab/craft-vision" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    serre-lab/craft-vision
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Craft-Vision" class="md-nav__button md-logo" aria-label="Craft-Vision" data-md-component="logo">
+      
+  <img src="../../assets/craft_logo.png" alt="logo">
+
+    </a>
+    Craft-Vision
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/serre-lab/craft-vision" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    serre-lab/craft-vision
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          ImageNet Classes
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="ImageNet Classes" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          ImageNet Classes
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tench/" class="md-nav__link">
+        Tench
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../goldfish/" class="md-nav__link">
+        Goldfish
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../great%20white%20shark/" class="md-nav__link">
+        Great white shark
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tiger%20shark/" class="md-nav__link">
+        Tiger shark
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../hammerhead/" class="md-nav__link">
+        Hammerhead
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../electric%20ray/" class="md-nav__link">
+        Electric ray
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../stingray/" class="md-nav__link">
+        Stingray
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cock/" class="md-nav__link">
+        Cock
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../hen/" class="md-nav__link">
+        Hen
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ostrich/" class="md-nav__link">
+        Ostrich
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../brambling/" class="md-nav__link">
+        Brambling
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../goldfinch/" class="md-nav__link">
+        Goldfinch
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../house%20finch/" class="md-nav__link">
+        House finch
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../junco/" class="md-nav__link">
+        Junco
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../indigo%20bunting/" class="md-nav__link">
+        Indigo bunting
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../robin/" class="md-nav__link">
+        Robin
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../bulbul/" class="md-nav__link">
+        Bulbul
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../jay/" class="md-nav__link">
+        Jay
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../magpie/" class="md-nav__link">
+        Magpie
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chickadee/" class="md-nav__link">
+        Chickadee
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../water%20ouzel/" class="md-nav__link">
+        Water ouzel
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kite/" class="md-nav__link">
+        Kite
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../bald%20eagle/" class="md-nav__link">
+        Bald eagle
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../vulture/" class="md-nav__link">
+        Vulture
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../great%20grey%20owl/" class="md-nav__link">
+        Great grey owl
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../European%20fire%20salamander/" class="md-nav__link">
+        European fire salamander
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../common%20newt/" class="md-nav__link">
+        Common newt
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../eft/" class="md-nav__link">
+        Eft
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../spotted%20salamander/" class="md-nav__link">
+        Spotted salamander
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../axolotl/" class="md-nav__link">
+        Axolotl
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../bullfrog/" class="md-nav__link">
+        Bullfrog
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tree%20frog/" class="md-nav__link">
+        Tree frog
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tailed%20frog/" class="md-nav__link">
+        Tailed frog
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../loggerhead/" class="md-nav__link">
+        Loggerhead
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../leatherback%20turtle/" class="md-nav__link">
+        Leatherback turtle
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mud%20turtle/" class="md-nav__link">
+        Mud turtle
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../terrapin/" class="md-nav__link">
+        Terrapin
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../box%20turtle/" class="md-nav__link">
+        Box turtle
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../banded%20gecko/" class="md-nav__link">
+        Banded gecko
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../common%20iguana/" class="md-nav__link">
+        Common iguana
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../American%20chameleon/" class="md-nav__link">
+        American chameleon
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../whiptail/" class="md-nav__link">
+        Whiptail
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../agama/" class="md-nav__link">
+        Agama
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../frilled%20lizard/" class="md-nav__link">
+        Frilled lizard
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../alligator%20lizard/" class="md-nav__link">
+        Alligator lizard
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Gila%20monster/" class="md-nav__link">
+        Gila monster
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../green%20lizard/" class="md-nav__link">
+        Green lizard
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../African%20chameleon/" class="md-nav__link">
+        African chameleon
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Komodo%20dragon/" class="md-nav__link">
+        Komodo dragon
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../African%20crocodile/" class="md-nav__link">
+        African crocodile
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../American%20alligator/" class="md-nav__link">
+        American alligator
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../triceratops/" class="md-nav__link">
+        Triceratops
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../thunder%20snake/" class="md-nav__link">
+        Thunder snake
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ringneck%20snake/" class="md-nav__link">
+        Ringneck snake
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../hognose%20snake/" class="md-nav__link">
+        Hognose snake
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../green%20snake/" class="md-nav__link">
+        Green snake
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../king%20snake/" class="md-nav__link">
+        King snake
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../garter%20snake/" class="md-nav__link">
+        Garter snake
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../water%20snake/" class="md-nav__link">
+        Water snake
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../vine%20snake/" class="md-nav__link">
+        Vine snake
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../night%20snake/" class="md-nav__link">
+        Night snake
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../boa%20constrictor/" class="md-nav__link">
+        Boa constrictor
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../rock%20python/" class="md-nav__link">
+        Rock python
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Indian%20cobra/" class="md-nav__link">
+        Indian cobra
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../green%20mamba/" class="md-nav__link">
+        Green mamba
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sea%20snake/" class="md-nav__link">
+        Sea snake
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../horned%20viper/" class="md-nav__link">
+        Horned viper
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../diamondback/" class="md-nav__link">
+        Diamondback
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sidewinder/" class="md-nav__link">
+        Sidewinder
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../trilobite/" class="md-nav__link">
+        Trilobite
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../harvestman/" class="md-nav__link">
+        Harvestman
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../scorpion/" class="md-nav__link">
+        Scorpion
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../black%20and%20gold%20garden%20spider/" class="md-nav__link">
+        Black and gold garden spider
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../barn%20spider/" class="md-nav__link">
+        Barn spider
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../garden%20spider/" class="md-nav__link">
+        Garden spider
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../black%20widow/" class="md-nav__link">
+        Black widow
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tarantula/" class="md-nav__link">
+        Tarantula
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../wolf%20spider/" class="md-nav__link">
+        Wolf spider
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tick/" class="md-nav__link">
+        Tick
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../centipede/" class="md-nav__link">
+        Centipede
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../black%20grouse/" class="md-nav__link">
+        Black grouse
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ptarmigan/" class="md-nav__link">
+        Ptarmigan
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ruffed%20grouse/" class="md-nav__link">
+        Ruffed grouse
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../prairie%20chicken/" class="md-nav__link">
+        Prairie chicken
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../peacock/" class="md-nav__link">
+        Peacock
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../quail/" class="md-nav__link">
+        Quail
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../partridge/" class="md-nav__link">
+        Partridge
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../African%20grey/" class="md-nav__link">
+        African grey
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../macaw/" class="md-nav__link">
+        Macaw
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sulphur-crested%20cockatoo/" class="md-nav__link">
+        Sulphur-crested cockatoo
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lorikeet/" class="md-nav__link">
+        Lorikeet
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../coucal/" class="md-nav__link">
+        Coucal
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../bee%20eater/" class="md-nav__link">
+        Bee eater
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../hornbill/" class="md-nav__link">
+        Hornbill
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../hummingbird/" class="md-nav__link">
+        Hummingbird
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../jacamar/" class="md-nav__link">
+        Jacamar
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../toucan/" class="md-nav__link">
+        Toucan
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../drake/" class="md-nav__link">
+        Drake
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../red-breasted%20merganser/" class="md-nav__link">
+        Red-breasted merganser
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../goose/" class="md-nav__link">
+        Goose
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../black%20swan/" class="md-nav__link">
+        Black swan
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tusker/" class="md-nav__link">
+        Tusker
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../echidna/" class="md-nav__link">
+        Echidna
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../platypus/" class="md-nav__link">
+        Platypus
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../wallaby/" class="md-nav__link">
+        Wallaby
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../koala/" class="md-nav__link">
+        Koala
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../wombat/" class="md-nav__link">
+        Wombat
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../jellyfish/" class="md-nav__link">
+        Jellyfish
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sea%20anemone/" class="md-nav__link">
+        Sea anemone
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../brain%20coral/" class="md-nav__link">
+        Brain coral
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../flatworm/" class="md-nav__link">
+        Flatworm
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../nematode/" class="md-nav__link">
+        Nematode
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../conch/" class="md-nav__link">
+        Conch
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../snail/" class="md-nav__link">
+        Snail
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../slug/" class="md-nav__link">
+        Slug
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sea%20slug/" class="md-nav__link">
+        Sea slug
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chiton/" class="md-nav__link">
+        Chiton
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chambered%20nautilus/" class="md-nav__link">
+        Chambered nautilus
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Dungeness%20crab/" class="md-nav__link">
+        Dungeness crab
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../rock%20crab/" class="md-nav__link">
+        Rock crab
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../fiddler%20crab/" class="md-nav__link">
+        Fiddler crab
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../king%20crab/" class="md-nav__link">
+        King crab
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../American%20lobster/" class="md-nav__link">
+        American lobster
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../spiny%20lobster/" class="md-nav__link">
+        Spiny lobster
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../crayfish/" class="md-nav__link">
+        Crayfish
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../hermit%20crab/" class="md-nav__link">
+        Hermit crab
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../isopod/" class="md-nav__link">
+        Isopod
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../white%20stork/" class="md-nav__link">
+        White stork
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../black%20stork/" class="md-nav__link">
+        Black stork
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../spoonbill/" class="md-nav__link">
+        Spoonbill
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../flamingo/" class="md-nav__link">
+        Flamingo
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../little%20blue%20heron/" class="md-nav__link">
+        Little blue heron
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../American%20egret/" class="md-nav__link">
+        American egret
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../bittern/" class="md-nav__link">
+        Bittern
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../crane/" class="md-nav__link">
+        Crane
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../limpkin/" class="md-nav__link">
+        Limpkin
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../European%20gallinule/" class="md-nav__link">
+        European gallinule
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../American%20coot/" class="md-nav__link">
+        American coot
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../bustard/" class="md-nav__link">
+        Bustard
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ruddy%20turnstone/" class="md-nav__link">
+        Ruddy turnstone
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../red-backed%20sandpiper/" class="md-nav__link">
+        Red-backed sandpiper
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../redshank/" class="md-nav__link">
+        Redshank
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dowitcher/" class="md-nav__link">
+        Dowitcher
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../oystercatcher/" class="md-nav__link">
+        Oystercatcher
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pelican/" class="md-nav__link">
+        Pelican
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../king%20penguin/" class="md-nav__link">
+        King penguin
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../albatross/" class="md-nav__link">
+        Albatross
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../grey%20whale/" class="md-nav__link">
+        Grey whale
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../killer%20whale/" class="md-nav__link">
+        Killer whale
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dugong/" class="md-nav__link">
+        Dugong
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sea%20lion/" class="md-nav__link">
+        Sea lion
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Chihuahua/" class="md-nav__link">
+        Chihuahua
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Japanese%20spaniel/" class="md-nav__link">
+        Japanese spaniel
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Maltese%20dog/" class="md-nav__link">
+        Maltese dog
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Pekinese/" class="md-nav__link">
+        Pekinese
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Shih-Tzu/" class="md-nav__link">
+        Shih-tzu
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Blenheim%20spaniel/" class="md-nav__link">
+        Blenheim spaniel
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../papillon/" class="md-nav__link">
+        Papillon
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../toy%20terrier/" class="md-nav__link">
+        Toy terrier
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Rhodesian%20ridgeback/" class="md-nav__link">
+        Rhodesian ridgeback
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Afghan%20hound/" class="md-nav__link">
+        Afghan hound
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../basset/" class="md-nav__link">
+        Basset
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../beagle/" class="md-nav__link">
+        Beagle
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../bloodhound/" class="md-nav__link">
+        Bloodhound
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../bluetick/" class="md-nav__link">
+        Bluetick
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../black-and-tan%20coonhound/" class="md-nav__link">
+        Black-and-tan coonhound
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Walker%20hound/" class="md-nav__link">
+        Walker hound
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../English%20foxhound/" class="md-nav__link">
+        English foxhound
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../redbone/" class="md-nav__link">
+        Redbone
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../borzoi/" class="md-nav__link">
+        Borzoi
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Irish%20wolfhound/" class="md-nav__link">
+        Irish wolfhound
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Italian%20greyhound/" class="md-nav__link">
+        Italian greyhound
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../whippet/" class="md-nav__link">
+        Whippet
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Ibizan%20hound/" class="md-nav__link">
+        Ibizan hound
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Norwegian%20elkhound/" class="md-nav__link">
+        Norwegian elkhound
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../otterhound/" class="md-nav__link">
+        Otterhound
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Saluki/" class="md-nav__link">
+        Saluki
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Scottish%20deerhound/" class="md-nav__link">
+        Scottish deerhound
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Weimaraner/" class="md-nav__link">
+        Weimaraner
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Staffordshire%20bullterrier/" class="md-nav__link">
+        Staffordshire bullterrier
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../American%20Staffordshire%20terrier/" class="md-nav__link">
+        American staffordshire terrier
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Bedlington%20terrier/" class="md-nav__link">
+        Bedlington terrier
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Border%20terrier/" class="md-nav__link">
+        Border terrier
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Kerry%20blue%20terrier/" class="md-nav__link">
+        Kerry blue terrier
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Irish%20terrier/" class="md-nav__link">
+        Irish terrier
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Norfolk%20terrier/" class="md-nav__link">
+        Norfolk terrier
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Norwich%20terrier/" class="md-nav__link">
+        Norwich terrier
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Yorkshire%20terrier/" class="md-nav__link">
+        Yorkshire terrier
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../wire-haired%20fox%20terrier/" class="md-nav__link">
+        Wire-haired fox terrier
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Lakeland%20terrier/" class="md-nav__link">
+        Lakeland terrier
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Sealyham%20terrier/" class="md-nav__link">
+        Sealyham terrier
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Airedale/" class="md-nav__link">
+        Airedale
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cairn/" class="md-nav__link">
+        Cairn
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Australian%20terrier/" class="md-nav__link">
+        Australian terrier
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Dandie%20Dinmont/" class="md-nav__link">
+        Dandie dinmont
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Boston%20bull/" class="md-nav__link">
+        Boston bull
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../miniature%20schnauzer/" class="md-nav__link">
+        Miniature schnauzer
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../giant%20schnauzer/" class="md-nav__link">
+        Giant schnauzer
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../standard%20schnauzer/" class="md-nav__link">
+        Standard schnauzer
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Scotch%20terrier/" class="md-nav__link">
+        Scotch terrier
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tibetan%20terrier/" class="md-nav__link">
+        Tibetan terrier
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../silky%20terrier/" class="md-nav__link">
+        Silky terrier
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../soft-coated%20wheaten%20terrier/" class="md-nav__link">
+        Soft-coated wheaten terrier
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../West%20Highland%20white%20terrier/" class="md-nav__link">
+        West highland white terrier
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Lhasa/" class="md-nav__link">
+        Lhasa
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cliff%20dwelling/" class="md-nav__link">
+        Cliff dwelling
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cloak/" class="md-nav__link">
+        Cloak
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../clog/" class="md-nav__link">
+        Clog
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cocktail%20shaker/" class="md-nav__link">
+        Cocktail shaker
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../coffee%20mug/" class="md-nav__link">
+        Coffee mug
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../coffeepot/" class="md-nav__link">
+        Coffeepot
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../coil/" class="md-nav__link">
+        Coil
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../combination%20lock/" class="md-nav__link">
+        Combination lock
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../computer%20keyboard/" class="md-nav__link">
+        Computer keyboard
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../confectionery/" class="md-nav__link">
+        Confectionery
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../container%20ship/" class="md-nav__link">
+        Container ship
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../convertible/" class="md-nav__link">
+        Convertible
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../corkscrew/" class="md-nav__link">
+        Corkscrew
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cornet/" class="md-nav__link">
+        Cornet
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cowboy%20boot/" class="md-nav__link">
+        Cowboy boot
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cowboy%20hat/" class="md-nav__link">
+        Cowboy hat
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cradle/" class="md-nav__link">
+        Cradle
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../crane/" class="md-nav__link">
+        Crane
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../crash%20helmet/" class="md-nav__link">
+        Crash helmet
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../crate/" class="md-nav__link">
+        Crate
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../crib/" class="md-nav__link">
+        Crib
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Crock%20Pot/" class="md-nav__link">
+        Crock pot
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../croquet%20ball/" class="md-nav__link">
+        Croquet ball
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../crutch/" class="md-nav__link">
+        Crutch
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cuirass/" class="md-nav__link">
+        Cuirass
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dam/" class="md-nav__link">
+        Dam
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../desk/" class="md-nav__link">
+        Desk
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../desktop%20computer/" class="md-nav__link">
+        Desktop computer
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dial%20telephone/" class="md-nav__link">
+        Dial telephone
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../diaper/" class="md-nav__link">
+        Diaper
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../digital%20clock/" class="md-nav__link">
+        Digital clock
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../digital%20watch/" class="md-nav__link">
+        Digital watch
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dining%20table/" class="md-nav__link">
+        Dining table
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dishrag/" class="md-nav__link">
+        Dishrag
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dishwasher/" class="md-nav__link">
+        Dishwasher
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../disk%20brake/" class="md-nav__link">
+        Disk brake
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dock/" class="md-nav__link">
+        Dock
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dogsled/" class="md-nav__link">
+        Dogsled
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dome/" class="md-nav__link">
+        Dome
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../doormat/" class="md-nav__link">
+        Doormat
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../drilling%20platform/" class="md-nav__link">
+        Drilling platform
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../drum/" class="md-nav__link">
+        Drum
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../drumstick/" class="md-nav__link">
+        Drumstick
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dumbbell/" class="md-nav__link">
+        Dumbbell
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Dutch%20oven/" class="md-nav__link">
+        Dutch oven
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../electric%20fan/" class="md-nav__link">
+        Electric fan
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../electric%20guitar/" class="md-nav__link">
+        Electric guitar
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../electric%20locomotive/" class="md-nav__link">
+        Electric locomotive
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../entertainment%20center/" class="md-nav__link">
+        Entertainment center
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../envelope/" class="md-nav__link">
+        Envelope
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../espresso%20maker/" class="md-nav__link">
+        Espresso maker
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../face%20powder/" class="md-nav__link">
+        Face powder
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../feather%20boa/" class="md-nav__link">
+        Feather boa
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../file/" class="md-nav__link">
+        File
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../fireboat/" class="md-nav__link">
+        Fireboat
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../fire%20engine/" class="md-nav__link">
+        Fire engine
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../fire%20screen/" class="md-nav__link">
+        Fire screen
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../flagpole/" class="md-nav__link">
+        Flagpole
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../flute/" class="md-nav__link">
+        Flute
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../folding%20chair/" class="md-nav__link">
+        Folding chair
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../football%20helmet/" class="md-nav__link">
+        Football helmet
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../forklift/" class="md-nav__link">
+        Forklift
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../fountain/" class="md-nav__link">
+        Fountain
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../fountain%20pen/" class="md-nav__link">
+        Fountain pen
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../four-poster/" class="md-nav__link">
+        Four-poster
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../freight%20car/" class="md-nav__link">
+        Freight car
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../French%20horn/" class="md-nav__link">
+        French horn
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../frying%20pan/" class="md-nav__link">
+        Frying pan
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../fur%20coat/" class="md-nav__link">
+        Fur coat
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../garbage%20truck/" class="md-nav__link">
+        Garbage truck
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gasmask/" class="md-nav__link">
+        Gasmask
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gas%20pump/" class="md-nav__link">
+        Gas pump
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../goblet/" class="md-nav__link">
+        Goblet
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../go-kart/" class="md-nav__link">
+        Go-kart
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../golf%20ball/" class="md-nav__link">
+        Golf ball
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../golfcart/" class="md-nav__link">
+        Golfcart
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gondola/" class="md-nav__link">
+        Gondola
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gong/" class="md-nav__link">
+        Gong
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gown/" class="md-nav__link">
+        Gown
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../grand%20piano/" class="md-nav__link">
+        Grand piano
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../greenhouse/" class="md-nav__link">
+        Greenhouse
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../grille/" class="md-nav__link">
+        Grille
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../grocery%20store/" class="md-nav__link">
+        Grocery store
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../guillotine/" class="md-nav__link">
+        Guillotine
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../hair%20slide/" class="md-nav__link">
+        Hair slide
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../hair%20spray/" class="md-nav__link">
+        Hair spray
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../half%20track/" class="md-nav__link">
+        Half track
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../hammer/" class="md-nav__link">
+        Hammer
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../hamper/" class="md-nav__link">
+        Hamper
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../hand%20blower/" class="md-nav__link">
+        Hand blower
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../hand-held%20computer/" class="md-nav__link">
+        Hand-held computer
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../handkerchief/" class="md-nav__link">
+        Handkerchief
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../hard%20disc/" class="md-nav__link">
+        Hard disc
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../harmonica/" class="md-nav__link">
+        Harmonica
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../harp/" class="md-nav__link">
+        Harp
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../harvester/" class="md-nav__link">
+        Harvester
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../hatchet/" class="md-nav__link">
+        Hatchet
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../holster/" class="md-nav__link">
+        Holster
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../home%20theater/" class="md-nav__link">
+        Home theater
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../honeycomb/" class="md-nav__link">
+        Honeycomb
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../hook/" class="md-nav__link">
+        Hook
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../hoopskirt/" class="md-nav__link">
+        Hoopskirt
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../horizontal%20bar/" class="md-nav__link">
+        Horizontal bar
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../horse%20cart/" class="md-nav__link">
+        Horse cart
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../hourglass/" class="md-nav__link">
+        Hourglass
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../iPod/" class="md-nav__link">
+        Ipod
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Iron
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Iron
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#similar-concepts" class="md-nav__link">
+    Similar concepts
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../-lantern%22/" class="md-nav__link">
+        -lantern"
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../jean/" class="md-nav__link">
+        Jean
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../jeep/" class="md-nav__link">
+        Jeep
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../jersey/" class="md-nav__link">
+        Jersey
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../jigsaw%20puzzle/" class="md-nav__link">
+        Jigsaw puzzle
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../jinrikisha/" class="md-nav__link">
+        Jinrikisha
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../joystick/" class="md-nav__link">
+        Joystick
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kimono/" class="md-nav__link">
+        Kimono
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../knee%20pad/" class="md-nav__link">
+        Knee pad
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../knot/" class="md-nav__link">
+        Knot
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lab%20coat/" class="md-nav__link">
+        Lab coat
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ladle/" class="md-nav__link">
+        Ladle
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lampshade/" class="md-nav__link">
+        Lampshade
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../laptop/" class="md-nav__link">
+        Laptop
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lawn%20mower/" class="md-nav__link">
+        Lawn mower
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lens%20cap/" class="md-nav__link">
+        Lens cap
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../letter%20opener/" class="md-nav__link">
+        Letter opener
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../library/" class="md-nav__link">
+        Library
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lifeboat/" class="md-nav__link">
+        Lifeboat
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lighter/" class="md-nav__link">
+        Lighter
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../limousine/" class="md-nav__link">
+        Limousine
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../liner/" class="md-nav__link">
+        Liner
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lipstick/" class="md-nav__link">
+        Lipstick
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Loafer/" class="md-nav__link">
+        Loafer
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lotion/" class="md-nav__link">
+        Lotion
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../loudspeaker/" class="md-nav__link">
+        Loudspeaker
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../s%20loupe%22/" class="md-nav__link">
+        S loupe"
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lumbermill/" class="md-nav__link">
+        Lumbermill
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../magnetic%20compass/" class="md-nav__link">
+        Magnetic compass
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mailbag/" class="md-nav__link">
+        Mailbag
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mailbox/" class="md-nav__link">
+        Mailbox
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../maillot/" class="md-nav__link">
+        Maillot
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../manhole%20cover/" class="md-nav__link">
+        Manhole cover
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../maraca/" class="md-nav__link">
+        Maraca
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../marimba/" class="md-nav__link">
+        Marimba
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mask/" class="md-nav__link">
+        Mask
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../matchstick/" class="md-nav__link">
+        Matchstick
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../maypole/" class="md-nav__link">
+        Maypole
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../maze/" class="md-nav__link">
+        Maze
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../measuring%20cup/" class="md-nav__link">
+        Measuring cup
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../medicine%20chest/" class="md-nav__link">
+        Medicine chest
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../megalith/" class="md-nav__link">
+        Megalith
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../microphone/" class="md-nav__link">
+        Microphone
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../microwave/" class="md-nav__link">
+        Microwave
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../military%20uniform/" class="md-nav__link">
+        Military uniform
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../milk%20can/" class="md-nav__link">
+        Milk can
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../minibus/" class="md-nav__link">
+        Minibus
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../miniskirt/" class="md-nav__link">
+        Miniskirt
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../minivan/" class="md-nav__link">
+        Minivan
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../missile/" class="md-nav__link">
+        Missile
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mitten/" class="md-nav__link">
+        Mitten
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mixing%20bowl/" class="md-nav__link">
+        Mixing bowl
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mobile%20home/" class="md-nav__link">
+        Mobile home
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Model%20T/" class="md-nav__link">
+        Model t
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../modem/" class="md-nav__link">
+        Modem
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../monastery/" class="md-nav__link">
+        Monastery
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../monitor/" class="md-nav__link">
+        Monitor
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../moped/" class="md-nav__link">
+        Moped
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mortar/" class="md-nav__link">
+        Mortar
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mortarboard/" class="md-nav__link">
+        Mortarboard
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mosque/" class="md-nav__link">
+        Mosque
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mosquito%20net/" class="md-nav__link">
+        Mosquito net
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../motor%20scooter/" class="md-nav__link">
+        Motor scooter
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mountain%20bike/" class="md-nav__link">
+        Mountain bike
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mountain%20tent/" class="md-nav__link">
+        Mountain tent
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mouse/" class="md-nav__link">
+        Mouse
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mousetrap/" class="md-nav__link">
+        Mousetrap
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../moving%20van/" class="md-nav__link">
+        Moving van
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../muzzle/" class="md-nav__link">
+        Muzzle
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../nail/" class="md-nav__link">
+        Nail
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../neck%20brace/" class="md-nav__link">
+        Neck brace
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../necklace/" class="md-nav__link">
+        Necklace
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../nipple/" class="md-nav__link">
+        Nipple
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../notebook/" class="md-nav__link">
+        Notebook
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../obelisk/" class="md-nav__link">
+        Obelisk
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../oboe/" class="md-nav__link">
+        Oboe
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ocarina/" class="md-nav__link">
+        Ocarina
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../odometer/" class="md-nav__link">
+        Odometer
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../oil%20filter/" class="md-nav__link">
+        Oil filter
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../organ/" class="md-nav__link">
+        Organ
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../oscilloscope/" class="md-nav__link">
+        Oscilloscope
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../overskirt/" class="md-nav__link">
+        Overskirt
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../oxcart/" class="md-nav__link">
+        Oxcart
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../oxygen%20mask/" class="md-nav__link">
+        Oxygen mask
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../packet/" class="md-nav__link">
+        Packet
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../paddle/" class="md-nav__link">
+        Paddle
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../paddlewheel/" class="md-nav__link">
+        Paddlewheel
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../padlock/" class="md-nav__link">
+        Padlock
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../paintbrush/" class="md-nav__link">
+        Paintbrush
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../s/" class="md-nav__link">
+        S
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../palace/" class="md-nav__link">
+        Palace
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../panpipe/" class="md-nav__link">
+        Panpipe
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../paper%20towel/" class="md-nav__link">
+        Paper towel
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../parachute/" class="md-nav__link">
+        Parachute
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../parallel%20bars/" class="md-nav__link">
+        Parallel bars
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../park%20bench/" class="md-nav__link">
+        Park bench
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../parking%20meter/" class="md-nav__link">
+        Parking meter
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../passenger%20car/" class="md-nav__link">
+        Passenger car
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../patio/" class="md-nav__link">
+        Patio
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pay-phone/" class="md-nav__link">
+        Pay-phone
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#similar-concepts" class="md-nav__link">
+    Similar concepts
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+  <a href="https://github.com/serre-lab/craft-vision/edit/master/docs/classes/iron.md" title="Edit this page" class="md-content__button md-icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"/></svg>
+  </a>
+
+
+
+<h1 id="iron-606">iron (606)<a class="headerlink" href="#iron-606" title="Permanent link">&para;</a></h1>
+<p>iron (606) has 1 important concepts. The full class name is iron, smoothing iron.</p>
+<hr />
+<div class="boussole-importance">
+    <canvas id="myChart"> </canvas>
+</div>
+
+<div class="concept-proximity">
+    <canvas id="myChart2"> </canvas>
+</div>
+
+<div class="feature-viz-intro">
+    <div class="gallery">
+
+<div class="gallery-container-img important">
+    <span>Concept0</span>
+    <img src="https://storage.googleapis.com/serrelab/craft_vision/fviz/606_0.png" class="gallery-img">
+    <div class="hidden-images">
+        <img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_0_0.png" class="surprise-img img1"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_0_1.png" class="surprise-img img2"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_0_2.png" class="surprise-img img3"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_0_3.png" class="surprise-img img4"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_0_4.png" class="surprise-img img5"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_0_5.png" class="surprise-img img6"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_0_6.png" class="surprise-img img7"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_0_7.png" class="surprise-img img8"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_0_8.png" class="surprise-img img9"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_0_9.png" class="surprise-img img10">
+    </div>
+</div>
+
+<div class="gallery-container-img ">
+    <span>Concept9</span>
+    <img src="https://storage.googleapis.com/serrelab/craft_vision/fviz/606_9.png" class="gallery-img">
+    <div class="hidden-images">
+        <img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_9_0.png" class="surprise-img img1"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_9_1.png" class="surprise-img img2"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_9_2.png" class="surprise-img img3"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_9_3.png" class="surprise-img img4"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_9_4.png" class="surprise-img img5"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_9_5.png" class="surprise-img img6"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_9_6.png" class="surprise-img img7"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_9_7.png" class="surprise-img img8"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_9_8.png" class="surprise-img img9"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_9_9.png" class="surprise-img img10">
+    </div>
+</div>
+
+<div class="gallery-container-img ">
+    <span>Concept7</span>
+    <img src="https://storage.googleapis.com/serrelab/craft_vision/fviz/606_7.png" class="gallery-img">
+    <div class="hidden-images">
+        <img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_7_0.png" class="surprise-img img1"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_7_1.png" class="surprise-img img2"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_7_2.png" class="surprise-img img3"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_7_3.png" class="surprise-img img4"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_7_4.png" class="surprise-img img5"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_7_5.png" class="surprise-img img6"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_7_6.png" class="surprise-img img7"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_7_7.png" class="surprise-img img8"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_7_8.png" class="surprise-img img9"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_7_9.png" class="surprise-img img10">
+    </div>
+</div>
+
+<div class="gallery-container-img ">
+    <span>Concept6</span>
+    <img src="https://storage.googleapis.com/serrelab/craft_vision/fviz/606_6.png" class="gallery-img">
+    <div class="hidden-images">
+        <img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_6_0.png" class="surprise-img img1"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_6_1.png" class="surprise-img img2"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_6_2.png" class="surprise-img img3"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_6_3.png" class="surprise-img img4"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_6_4.png" class="surprise-img img5"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_6_5.png" class="surprise-img img6"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_6_6.png" class="surprise-img img7"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_6_7.png" class="surprise-img img8"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_6_8.png" class="surprise-img img9"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_6_9.png" class="surprise-img img10">
+    </div>
+</div>
+
+<div class="gallery-container-img ">
+    <span>Concept3</span>
+    <img src="https://storage.googleapis.com/serrelab/craft_vision/fviz/606_3.png" class="gallery-img">
+    <div class="hidden-images">
+        <img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_3_0.png" class="surprise-img img1"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_3_1.png" class="surprise-img img2"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_3_2.png" class="surprise-img img3"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_3_3.png" class="surprise-img img4"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_3_4.png" class="surprise-img img5"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_3_5.png" class="surprise-img img6"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_3_6.png" class="surprise-img img7"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_3_7.png" class="surprise-img img8"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_3_8.png" class="surprise-img img9"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_3_9.png" class="surprise-img img10">
+    </div>
+</div>
+
+<div class="gallery-container-img ">
+    <span>Concept4</span>
+    <img src="https://storage.googleapis.com/serrelab/craft_vision/fviz/606_4.png" class="gallery-img">
+    <div class="hidden-images">
+        <img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_4_0.png" class="surprise-img img1"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_4_1.png" class="surprise-img img2"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_4_2.png" class="surprise-img img3"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_4_3.png" class="surprise-img img4"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_4_4.png" class="surprise-img img5"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_4_5.png" class="surprise-img img6"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_4_6.png" class="surprise-img img7"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_4_7.png" class="surprise-img img8"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_4_8.png" class="surprise-img img9"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_4_9.png" class="surprise-img img10">
+    </div>
+</div>
+
+<div class="gallery-container-img ">
+    <span>Concept8</span>
+    <img src="https://storage.googleapis.com/serrelab/craft_vision/fviz/606_8.png" class="gallery-img">
+    <div class="hidden-images">
+        <img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_8_0.png" class="surprise-img img1"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_8_1.png" class="surprise-img img2"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_8_2.png" class="surprise-img img3"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_8_3.png" class="surprise-img img4"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_8_4.png" class="surprise-img img5"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_8_5.png" class="surprise-img img6"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_8_6.png" class="surprise-img img7"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_8_7.png" class="surprise-img img8"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_8_8.png" class="surprise-img img9"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_8_9.png" class="surprise-img img10">
+    </div>
+</div>
+
+<div class="gallery-container-img ">
+    <span>Concept5</span>
+    <img src="https://storage.googleapis.com/serrelab/craft_vision/fviz/606_5.png" class="gallery-img">
+    <div class="hidden-images">
+        <img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_5_0.png" class="surprise-img img1"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_5_1.png" class="surprise-img img2"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_5_2.png" class="surprise-img img3"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_5_3.png" class="surprise-img img4"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_5_4.png" class="surprise-img img5"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_5_5.png" class="surprise-img img6"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_5_6.png" class="surprise-img img7"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_5_7.png" class="surprise-img img8"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_5_8.png" class="surprise-img img9"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_5_9.png" class="surprise-img img10">
+    </div>
+</div>
+
+<div class="gallery-container-img ">
+    <span>Concept2</span>
+    <img src="https://storage.googleapis.com/serrelab/craft_vision/fviz/606_2.png" class="gallery-img">
+    <div class="hidden-images">
+        <img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_2_0.png" class="surprise-img img1"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_2_1.png" class="surprise-img img2"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_2_2.png" class="surprise-img img3"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_2_3.png" class="surprise-img img4"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_2_4.png" class="surprise-img img5"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_2_5.png" class="surprise-img img6"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_2_6.png" class="surprise-img img7"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_2_7.png" class="surprise-img img8"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_2_8.png" class="surprise-img img9"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_2_9.png" class="surprise-img img10">
+    </div>
+</div>
+
+<div class="gallery-container-img ">
+    <span>Concept1</span>
+    <img src="https://storage.googleapis.com/serrelab/craft_vision/fviz/606_1.png" class="gallery-img">
+    <div class="hidden-images">
+        <img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_1_0.png" class="surprise-img img1"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_1_1.png" class="surprise-img img2"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_1_2.png" class="surprise-img img3"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_1_3.png" class="surprise-img img4"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_1_4.png" class="surprise-img img5"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_1_5.png" class="surprise-img img6"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_1_6.png" class="surprise-img img7"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_1_7.png" class="surprise-img img8"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_1_8.png" class="surprise-img img9"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_1_9.png" class="surprise-img img10">
+    </div>
+</div>
+
+    </div>
+</div>
+
+<details>
+    <summary>
+        <span class="important">Concept 0</span>
+    </summary>
+
+    <div class="duo-gallery">
+        <div class="left">
+            <div class="gallery-container-img">
+                <img src="https://storage.googleapis.com/serrelab/craft_vision/fviz/606_0.png" class="gallery-img">
+            </div>
+        </div>
+        <div class="right">
+            <div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_0_0.png" class="gallery-img"></div><div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_0_1.png" class="gallery-img"></div><div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_0_2.png" class="gallery-img"></div><div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_0_3.png" class="gallery-img"></div><div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_0_4.png" class="gallery-img"></div><div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_0_5.png" class="gallery-img"></div><div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_0_6.png" class="gallery-img"></div><div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_0_7.png" class="gallery-img"></div><div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_0_8.png" class="gallery-img"></div><div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_0_9.png" class="gallery-img"></div>
+        </div>
+    </div>
+</details>
+
+<details>
+    <summary>
+        <span class="">Concept 9</span>
+    </summary>
+
+    <div class="duo-gallery">
+        <div class="left">
+            <div class="gallery-container-img">
+                <img src="https://storage.googleapis.com/serrelab/craft_vision/fviz/606_9.png" class="gallery-img">
+            </div>
+        </div>
+        <div class="right">
+            <div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_9_0.png" class="gallery-img"></div><div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_9_1.png" class="gallery-img"></div><div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_9_2.png" class="gallery-img"></div><div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_9_3.png" class="gallery-img"></div><div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_9_4.png" class="gallery-img"></div><div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_9_5.png" class="gallery-img"></div><div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_9_6.png" class="gallery-img"></div><div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_9_7.png" class="gallery-img"></div><div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_9_8.png" class="gallery-img"></div><div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_9_9.png" class="gallery-img"></div>
+        </div>
+    </div>
+</details>
+
+<details>
+    <summary>
+        <span class="">Concept 7</span>
+    </summary>
+
+    <div class="duo-gallery">
+        <div class="left">
+            <div class="gallery-container-img">
+                <img src="https://storage.googleapis.com/serrelab/craft_vision/fviz/606_7.png" class="gallery-img">
+            </div>
+        </div>
+        <div class="right">
+            <div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_7_0.png" class="gallery-img"></div><div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_7_1.png" class="gallery-img"></div><div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_7_2.png" class="gallery-img"></div><div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_7_3.png" class="gallery-img"></div><div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_7_4.png" class="gallery-img"></div><div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_7_5.png" class="gallery-img"></div><div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_7_6.png" class="gallery-img"></div><div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_7_7.png" class="gallery-img"></div><div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_7_8.png" class="gallery-img"></div><div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_7_9.png" class="gallery-img"></div>
+        </div>
+    </div>
+</details>
+
+<details>
+    <summary>
+        <span class="">Concept 6</span>
+    </summary>
+
+    <div class="duo-gallery">
+        <div class="left">
+            <div class="gallery-container-img">
+                <img src="https://storage.googleapis.com/serrelab/craft_vision/fviz/606_6.png" class="gallery-img">
+            </div>
+        </div>
+        <div class="right">
+            <div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_6_0.png" class="gallery-img"></div><div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_6_1.png" class="gallery-img"></div><div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_6_2.png" class="gallery-img"></div><div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_6_3.png" class="gallery-img"></div><div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_6_4.png" class="gallery-img"></div><div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_6_5.png" class="gallery-img"></div><div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_6_6.png" class="gallery-img"></div><div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_6_7.png" class="gallery-img"></div><div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_6_8.png" class="gallery-img"></div><div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_6_9.png" class="gallery-img"></div>
+        </div>
+    </div>
+</details>
+
+<details>
+    <summary>
+        <span class="">Concept 3</span>
+    </summary>
+
+    <div class="duo-gallery">
+        <div class="left">
+            <div class="gallery-container-img">
+                <img src="https://storage.googleapis.com/serrelab/craft_vision/fviz/606_3.png" class="gallery-img">
+            </div>
+        </div>
+        <div class="right">
+            <div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_3_0.png" class="gallery-img"></div><div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_3_1.png" class="gallery-img"></div><div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_3_2.png" class="gallery-img"></div><div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_3_3.png" class="gallery-img"></div><div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_3_4.png" class="gallery-img"></div><div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_3_5.png" class="gallery-img"></div><div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_3_6.png" class="gallery-img"></div><div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_3_7.png" class="gallery-img"></div><div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_3_8.png" class="gallery-img"></div><div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_3_9.png" class="gallery-img"></div>
+        </div>
+    </div>
+</details>
+
+<details>
+    <summary>
+        <span class="">Concept 4</span>
+    </summary>
+
+    <div class="duo-gallery">
+        <div class="left">
+            <div class="gallery-container-img">
+                <img src="https://storage.googleapis.com/serrelab/craft_vision/fviz/606_4.png" class="gallery-img">
+            </div>
+        </div>
+        <div class="right">
+            <div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_4_0.png" class="gallery-img"></div><div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_4_1.png" class="gallery-img"></div><div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_4_2.png" class="gallery-img"></div><div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_4_3.png" class="gallery-img"></div><div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_4_4.png" class="gallery-img"></div><div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_4_5.png" class="gallery-img"></div><div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_4_6.png" class="gallery-img"></div><div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_4_7.png" class="gallery-img"></div><div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_4_8.png" class="gallery-img"></div><div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_4_9.png" class="gallery-img"></div>
+        </div>
+    </div>
+</details>
+
+<details>
+    <summary>
+        <span class="">Concept 8</span>
+    </summary>
+
+    <div class="duo-gallery">
+        <div class="left">
+            <div class="gallery-container-img">
+                <img src="https://storage.googleapis.com/serrelab/craft_vision/fviz/606_8.png" class="gallery-img">
+            </div>
+        </div>
+        <div class="right">
+            <div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_8_0.png" class="gallery-img"></div><div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_8_1.png" class="gallery-img"></div><div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_8_2.png" class="gallery-img"></div><div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_8_3.png" class="gallery-img"></div><div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_8_4.png" class="gallery-img"></div><div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_8_5.png" class="gallery-img"></div><div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_8_6.png" class="gallery-img"></div><div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_8_7.png" class="gallery-img"></div><div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_8_8.png" class="gallery-img"></div><div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_8_9.png" class="gallery-img"></div>
+        </div>
+    </div>
+</details>
+
+<details>
+    <summary>
+        <span class="">Concept 5</span>
+    </summary>
+
+    <div class="duo-gallery">
+        <div class="left">
+            <div class="gallery-container-img">
+                <img src="https://storage.googleapis.com/serrelab/craft_vision/fviz/606_5.png" class="gallery-img">
+            </div>
+        </div>
+        <div class="right">
+            <div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_5_0.png" class="gallery-img"></div><div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_5_1.png" class="gallery-img"></div><div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_5_2.png" class="gallery-img"></div><div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_5_3.png" class="gallery-img"></div><div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_5_4.png" class="gallery-img"></div><div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_5_5.png" class="gallery-img"></div><div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_5_6.png" class="gallery-img"></div><div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_5_7.png" class="gallery-img"></div><div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_5_8.png" class="gallery-img"></div><div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_5_9.png" class="gallery-img"></div>
+        </div>
+    </div>
+</details>
+
+<details>
+    <summary>
+        <span class="">Concept 2</span>
+    </summary>
+
+    <div class="duo-gallery">
+        <div class="left">
+            <div class="gallery-container-img">
+                <img src="https://storage.googleapis.com/serrelab/craft_vision/fviz/606_2.png" class="gallery-img">
+            </div>
+        </div>
+        <div class="right">
+            <div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_2_0.png" class="gallery-img"></div><div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_2_1.png" class="gallery-img"></div><div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_2_2.png" class="gallery-img"></div><div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_2_3.png" class="gallery-img"></div><div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_2_4.png" class="gallery-img"></div><div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_2_5.png" class="gallery-img"></div><div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_2_6.png" class="gallery-img"></div><div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_2_7.png" class="gallery-img"></div><div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_2_8.png" class="gallery-img"></div><div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_2_9.png" class="gallery-img"></div>
+        </div>
+    </div>
+</details>
+
+<details>
+    <summary>
+        <span class="">Concept 1</span>
+    </summary>
+
+    <div class="duo-gallery">
+        <div class="left">
+            <div class="gallery-container-img">
+                <img src="https://storage.googleapis.com/serrelab/craft_vision/fviz/606_1.png" class="gallery-img">
+            </div>
+        </div>
+        <div class="right">
+            <div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_1_0.png" class="gallery-img"></div><div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_1_1.png" class="gallery-img"></div><div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_1_2.png" class="gallery-img"></div><div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_1_3.png" class="gallery-img"></div><div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_1_4.png" class="gallery-img"></div><div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_1_5.png" class="gallery-img"></div><div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_1_6.png" class="gallery-img"></div><div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_1_7.png" class="gallery-img"></div><div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_1_8.png" class="gallery-img"></div><div class="gallery-container-img"><img src="https://storage.googleapis.com/serrelab/craft_vision/crops/606_1_9.png" class="gallery-img"></div>
+        </div>
+    </div>
+</details>
+
+<h2 id="similar-concepts">Similar concepts<a class="headerlink" href="#similar-concepts" title="Permanent link">&para;</a></h2>
+<p>We have found 25 similar concepts between the class iron and other classes.</p>
+<p>Here are those concepts: <br>
+- <a href='/classes/agama'>Concept 3 is similar to the concept 1 of agama (42)</a> <br>- <a href='/classes/Gila monster'>Concept 0 is similar to the concept 0 of Gila monster (45)</a> <br>- <a href='/classes/trilobite'>Concept 0 is similar to the concept 1 of trilobite (69)</a> <br>- <a href='/classes/tarantula'>Concept 0 is similar to the concept 0 of tarantula (76)</a> <br>- <a href='/classes/African grey'>Concept 0 is similar to the concept 0 of African grey (87)</a> <br>- <a href='/classes/echidna'>Concept 0 is similar to the concept 0 of echidna (102)</a> <br>- <a href='/classes/brain coral'>Concept 0 is similar to the concept 0 of brain coral (109)</a> <br>- <a href='/classes/brain coral'>Concept 3 is similar to the concept 0 of brain coral (109)</a> <br>- <a href='/classes/nematode'>Concept 0 is similar to the concept 1 of nematode (111)</a> <br>- <a href='/classes/sea slug'>Concept 3 is similar to the concept 1 of sea slug (115)</a> <br>- <a href='/classes/limpkin'>Concept 0 is similar to the concept 0 of limpkin (135)</a> <br>- <a href='/classes/killer whale'>Concept 9 is similar to the concept 0 of killer whale (148)</a> <br>- <a href='/classes/Kerry blue terrier'>Concept 0 is similar to the concept 0 of Kerry blue terrier (183)</a> <br>- <a href='/classes/crate'>Concept 0 is similar to the concept 4 of crate (519)</a> <br>- <a href='/classes/dishrag'>Concept 0 is similar to the concept 0 of dishrag (533)</a> <br>- <a href='/classes/feather boa'>Concept 3 is similar to the concept 0 of feather boa (552)</a> <br>- <a href='/classes/French horn'>Concept 2 is similar to the concept 0 of French horn (566)</a> <br>- <a href='/classes/golf ball'>Concept 3 is similar to the concept 0 of golf ball (574)</a> <br>- <a href='/classes/harp'>Concept 2 is similar to the concept 0 of harp (594)</a> <br>- <a href='/classes/honeycomb'>Concept 0 is similar to the concept 0 of honeycomb (599)</a> <br>- <a href='/classes/honeycomb'>Concept 3 is similar to the concept 0 of honeycomb (599)</a> <br>- <a href='/classes/mountain tent'>Concept 0 is similar to the concept 2 of mountain tent (672)</a> <br>- <a href='/classes/nail'>Concept 0 is similar to the concept 1 of nail (677)</a> <br>- <a href='/classes/paddlewheel'>Concept 3 is similar to the concept 0 of paddlewheel (694)</a> <br>- <a href='/classes/palace'>Concept 3 is similar to the concept 0 of palace (698)</a> <br></p>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.8.0/chart.min.js" integrity="sha512-sW/w8s4RWTdFFSduOTGtk4isV1+190E/GghVffMA9XczdJ2MDzSzLEubKAs5h0wzgSJOQTRYyaz73L3d6RtJSg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script>
+    // showing cart on hover
+    const translate_size = 140
+    const carts = [...document.querySelectorAll('.feature-viz-intro .gallery-container-img')]
+
+    carts.map(car => {
+        car.addEventListener("click", (event) => {
+            hidden_images = [...car.querySelectorAll(".hidden-images img")]
+            hidden_images.map((img, i) => {
+                theta = i * 2 * Math.PI / hidden_images.length
+                if (img.style.transform == `translate(0px, 0px)` || img.style.transform == ``) {
+                    img.style.transform = `translate(${Math.cos(theta) * translate_size}px, ${Math.sin(theta) * translate_size}px)`
+                    img.style.opacity = 1
+                } else {
+                    console.log(img.style.transform)
+                    img.style.transform = `translate(0px, 0px)`
+                    img.style.opacity = 0
+                }
+                //img.style.transform = `translate(${Math.cos(theta) * translate_size}px, ${Math.sin(theta) * translate_size}px)`
+            })
+            console.log('images', hidden_images)
+            //console.log(event.target.src)
+            //console.log('over')
+        });
+    })
+</script>
+
+<script>
+    // importance chart
+    const ctx = document.getElementById('myChart').getContext('2d');
+    const myChart = new Chart(ctx, {
+        type: 'bar',
+        data:  {
+            labels: ['C0', 'C1', 'C2', 'C3', 'C4', 'C5', 'C6', 'C7', 'C8', 'C9'],
+            datasets: [ {
+                label: 'Concept Importance',
+                data: [0.56786764, 0.0, 0.0053630704, 0.041360624, 0.04049766, 0.009115835, 0.05502139, 0.07455976, 0.009615975, 0.19659793],
+                backgroundColor: [
+                    "rgba(255, 206, 86, 0.4)","rgba(127, 127, 127, 0.2)","rgba(127, 127, 127, 0.2)","rgba(127, 127, 127, 0.2)","rgba(127, 127, 127, 0.2)","rgba(127, 127, 127, 0.2)","rgba(127, 127, 127, 0.2)","rgba(127, 127, 127, 0.2)","rgba(127, 127, 127, 0.2)","rgba(127, 127, 127, 0.2)"
+                ],
+                borderColor: [
+                    "rgba(255, 206, 86, 1.0)","rgba(127, 127, 127, 0.2)","rgba(127, 127, 127, 0.2)","rgba(127, 127, 127, 0.2)","rgba(127, 127, 127, 0.2)","rgba(127, 127, 127, 0.2)","rgba(127, 127, 127, 0.2)","rgba(127, 127, 127, 0.2)","rgba(127, 127, 127, 0.2)","rgba(127, 127, 127, 0.2)"
+                ],
+                borderWidth: 1
+             }]
+        },
+        options: {
+            scales: {
+                y: {
+                    beginAtZero: true
+                }
+            }
+        }
+    });
+</script>
+
+<script>
+    // bubble chart using chart.js
+    const ctx2 = document.getElementById('myChart2').getContext('2d');
+    const myChart2 = new Chart(ctx2, {
+        type: 'bubble',
+        data: {
+            labels: ['C1', 'C2', 'C3', 'C4', 'C5', 'C6', 'C7', 'C8', 'C9'],
+            datasets: [{
+                label: 'Concept proximity',
+                data: [
+                {x: 0.9861470460891724, y: -3.581634759902954, r: 11.35735273361206, label: 'C0' },{x: -1.1753488779067993, y: -2.3833160400390625, r: 1.0, label: 'C1' },{x: 0.24052020907402039, y: -1.2547709941864014, r: 1.0, label: 'C2' },{x: 1.0015701055526733, y: -2.691650152206421, r: 1.0, label: 'C3' },{x: -0.4179757535457611, y: -2.8752119541168213, r: 1.0, label: 'C4' },{x: -0.7271318435668945, y: -1.7479523420333862, r: 1.0, label: 'C5' },{x: -0.7009831070899963, y: -3.613766670227051, r: 1.1004278063774109, label: 'C6' },{x: -1.3023672103881836, y: -3.2147562503814697, r: 1.491195261478424, label: 'C7' },{x: 0.0235675610601902, y: -1.8902562856674194, r: 1.0, label: 'C8' },{x: 0.270854651927948, y: -3.117823600769043, r: 3.9319586753845215, label: 'C9' }
+                ],
+                backgroundColor: [
+                    "rgba(255, 206, 86, 0.4)","rgba(127, 127, 127, 0.2)","rgba(127, 127, 127, 0.2)","rgba(127, 127, 127, 0.2)","rgba(127, 127, 127, 0.2)","rgba(127, 127, 127, 0.2)","rgba(127, 127, 127, 0.2)","rgba(127, 127, 127, 0.2)","rgba(127, 127, 127, 0.2)","rgba(127, 127, 127, 0.2)"
+                ],
+                borderColor: [
+                    "rgba(255, 206, 86, 1.0)","rgba(127, 127, 127, 0.2)","rgba(127, 127, 127, 0.2)","rgba(127, 127, 127, 0.2)","rgba(127, 127, 127, 0.2)","rgba(127, 127, 127, 0.2)","rgba(127, 127, 127, 0.2)","rgba(127, 127, 127, 0.2)","rgba(127, 127, 127, 0.2)","rgba(127, 127, 127, 0.2)"
+                ],
+                borderWidth: 1
+            }]
+        },
+    });
+
+    const fontSize = Chart.defaults.font.size
+    Chart.register({
+        id: 'permanentLabel',
+        afterDatasetsDraw: (chart, args, options) => {
+            const ctx = chart.ctx
+            ctx.textAlign = 'center'
+            ctx.textBaseline = 'middle'
+
+            chart.data.datasets.forEach((dataset, i) => {
+                const meta = chart.getDatasetMeta(i)
+                if (meta.type !== 'bubble') return
+
+                meta.data.forEach((element, index) => {
+                    const item = dataset.data[index]
+                    const position = element.tooltipPosition()
+                    let theme = document.body.getAttribute('data-md-color-scheme')
+                    ctx.fillStyle = '#000000'
+                    let label = item.label ? item.label.toString() : ''
+                    ctx.fillText(label, position.x, position.y - item.r - fontSize)
+                })
+            })
+        },
+    })
+</script>
+
+
+
+
+              
+            </article>
+            
+          </div>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+    <nav class="md-footer__inner md-grid" aria-label="Footer" >
+      
+        
+        <a href="../iPod/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Ipod" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Ipod
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../-lantern%22/" class="md-footer__link md-footer__link--next" aria-label="Next: -lantern&#34;" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              -lantern"
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.ecf98df9.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.9c69f0bc.min.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.6.0/chart.min.js"></script>
+      
+        <script src="../../js/custom.js"></script>
+      
+    
+  </body>
+</html>
