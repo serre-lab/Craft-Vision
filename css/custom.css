@@ -23,22 +23,33 @@
 }
 
 :root {
-    --primary: #3f51b5;
-    --dark: #313131;
+    --primary: rgb(255, 159, 104);
+    --synthax-blue: var(--primary);
+    --md-accent-fg-color: var(--synthax-blue);
+}
 
-    --synthax-blue: #3b78e7;
-    --synthax-red: #ec407a;
+[data-md-color-scheme="default"] {
+    /* dark theme */
+    /*--primary: #ecb22e;--synthax-blue: #ecb22e;*/
+    --primary: rgb(103, 58, 183);
+    --synthax-blue: var(--primary);
+    --dark: #313131;
+    --synthax-red: #03DAC6;
+    --md-typeset-a-color: var(--synthax-blue);
+    --md-primary-fg-color: var(--primary);
+    --md-primary-fg-color--light: var(--primary);
+    --md-primary-fg-color--dark: var(--primary);
+    --md-accent-fg-color: var(--synthax-blue);
 }
 
 [data-md-color-scheme="slate"] {
     /* dark theme */
-    --primary: #ecb22e;
+    /*--primary: #ecb22e;--synthax-blue: #ecb22e;*/
     --dark: #313131;
-    --synthax-blue: #ecb22e;
     --synthax-red: #03DAC6;
     --md-typeset-a-color: var(--synthax-blue);
-    --md-primary-fg-color: var(--dark);
-    --md-primary-fg-color--light: #5d6cc0;
+    --md-primary-fg-color: var(--primary);
+    --md-primary-fg-color--light: var(--primary);
     --md-primary-fg-color--dark: var(--primary);
     --md-accent-fg-color: var(--synthax-blue);
 }
@@ -222,4 +233,8 @@ span {
 
 .box-shadow {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.md-typeset .md-button {
+    padding: 0.2em 2em;
 }

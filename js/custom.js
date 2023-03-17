@@ -17,3 +17,12 @@ MathJax.Hub.Config({
         processClass: "arithmatex"
     },
 });
+
+// change class for images (twoe elements per column to 4 elements per column on click)
+button = document.querySelector('.md-button.columns')
+button.addEventListener('click', function () {
+    var images = document.querySelectorAll('.feature-viz-intro .gallery-container-img');
+    for (var i = 0; i < images.length; i++) {
+        images[i].classList.toggle('four-columns');
+    }
+})
